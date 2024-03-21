@@ -1,10 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Bruno from './SRC/Components/Bruno/index';
+import Giovani from './SRC/Components/Giovani/main';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+    
+      <Bruno></Bruno>
+    <Giovani></Giovani>
       <StatusBar style="auto" />
     </View>
   );
